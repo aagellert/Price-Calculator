@@ -1,0 +1,12 @@
+﻿<Application x:Class="Price_Calculator.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Price_Calculator"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+
+        <!--if you wish to start with DarkTheme.xaml; this must be changed-->
+        <ResourceDictionary Source="LightTheme.xaml"></ResourceDictionary>
+
+    </Application.Resources>
+</Application>
